@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+body,
+html,
+h1 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: "Teachers", sans-serif;
+    background: black;
+    color: white;
+
+    h1 {
+        font-family: "Teachers", sans-serif;
+        text-shadow: 3px 3px 3px rgb(131, 131, 131);
+        /* transition: all 10s; */
+    }
+
+    input {
+        font-size: larger;
+        padding: 10px;
+        border-radius: 20px;
+        border: 0px;
+        color: black;
+    }
+
+    p {
+        margin: 15px;
+    }
+
+    button {
+        background: rgb(225, 107, 225);
+        color: white;
+        padding: 10px 20px ;
+        font-weight: 600;
+        border-radius: 5px;
+    }
+    ul{
+        list-style: none;
+    }
+    li{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+}

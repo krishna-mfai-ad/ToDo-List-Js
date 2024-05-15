@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>
+            To-Do List
+        </h1>
+        <p>
+            Note Down Your Works To Do it!
+        </p>
+        <input id="inputBox" placeholder="Entry..." type="text">
+        <button onclick="add()">
+            Add Task
+        </button>
+        <ul id="listContainer">
+            <li>
+                <input type="checkbox">
+                Delete Me, I'm Dummy!
+               <img src="./Assests/material-symbols--delete-sweep.png" height="25px" onclick="deleteitem(event)" alt="">
+            </li>
+        </ul>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
